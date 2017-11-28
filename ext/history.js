@@ -13,7 +13,7 @@ function showAll(e) {
         for (var k in results) {
           var li = document.createElement('li');
           var history = results[k];
-         // var tn = document.createTextNode("URL: " + history.url + ", Title: " + history.title + ",last visited:"+ history. lastVisitTime + ",count:" + visitCount);
+       
           var tn = document.createTextNode(" URL: " + history.url + ", Title:" + history.title + ", Last visited:" + history.lastVisitTime + ",  Visit count: " + history.visitCount);
           li.appendChild(tn);
           root.appendChild(li);
