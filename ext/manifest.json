@@ -7,12 +7,17 @@
     "default_title": "My Youtube History",
     "default_popup": "history.html"
   },
+   "icons": {
+    "16": "16p.png",
+    "48": "48p.png",
+    "128": "128p.png"
+  },
   "permissions": [
     "activeTab",
-    "history",
+    "history",					
     "tabs"
   ],
   "manifest_version": 2,
   "name": "History List",
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
