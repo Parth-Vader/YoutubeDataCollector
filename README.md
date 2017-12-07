@@ -52,6 +52,8 @@ It displays the recent youtube videos opened and displays them in a list form. :
 ![image](https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/demo6.png?raw=true)
 
 
-## Looking to contribute?
+**Found a bug?** [Open an issue](https://github.com/Parth-Vader/YoutubeDataCollector/issues/new) with some [emojis](http://emoji.muan.co). Issues without emojis are not valid. 
+
+### Looking to contribute? :heart_eyes:
 
 Check out the Issues tab.
