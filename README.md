@@ -1,5 +1,10 @@
 # My Youtube History
 
+<p>
+  <a href="https://github.com/Parth-Vader/YoutubeDataCollector">YoutubeDataCollector</a> is compaitable with the we browsers like  <img src="https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/chrome.png?raw=true" alt="chrome icon" width="32" height="32"> <img src="https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/firefox.png?raw=true" alt="firefox icon" width="32" height="32">
+</p>
+
+
 [![built by the Developers](https://img.shields.io/badge/Built%20by%20the%20-Developers%20<%2F>-red.svg?style=for-the-badge)](http://shields.io/#your-badge)
 
 [![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)
@@ -11,6 +16,8 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
 Searches for recent youtube videos opened and displays them in a list form.
+
+
 
 ## Installation
 
