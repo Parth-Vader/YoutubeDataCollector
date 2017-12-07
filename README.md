@@ -12,13 +12,16 @@
 
 Searches for recent youtube videos opened and displays them in a list form.
 
+## Installation
+
 ### Chrome
 
-- Visit `chrome://extensions`
-- Enable Developer Mode.
-- Click on the "Load unpacked extension..."
-- Select the directory in which this repo is cloned.
+1. Visit `chrome://extensions`
+2. Enable Developer Mode.
+3. Click on the "Load unpacked extension..."
+4. Select the directory in which this repo is cloned.
+5. YoutubeDataCollector is now installed on your browser.
 
-# Looking to contribute?
+## Looking to contribute?
 
 Check out the Issues tab.
