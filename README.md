@@ -15,7 +15,7 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
-Searches for recent youtube videos opened and displays them in a list form.
+Searches :mag_right: for recent youtube videos opened and displays them in a list form. :bookmark_tabs:
 
 
 
@@ -23,30 +23,31 @@ Searches for recent youtube videos opened and displays them in a list form.
 
 ### Chrome
 
-1. Visit `chrome://extensions`
+1. Visit `chrome://extensions`  :arrow_heading_down:
 
 ![image](https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/demo1.png?raw=true)
 
-2. Enable Developer Mode.
-3. Click on the "Load unpacked extension..."
+2. Enable Developer Mode. :heavy_check_mark:
+3. Click on the "Load unpacked extension..."  :file_folder:
 
 ![image](https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/demo2.png?raw=true)
 
-4. Select the directory in which this repo is cloned.
+4. Select the directory in which this repo is cloned.  :open_file_folder:
 
 ![image](https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/demo3.png?raw=true)
 
-5. YoutubeDataCollector is now installed on your browser.
+5. YoutubeDataCollector is now installed on your browser.  :+1:
 
 ![image](https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/demo4.png?raw=true)
 
 ## How to Use?
 
-Now that the extension is installed in your web browser. You can see the logo on the top-right of your browser. Click on the logo and then `Show`
+Now that the extension is installed in your web browser. You can see the logo on the top-right of your browser. :arrow_upper_right:
+ Click on the logo and then `Show`
 
 ![image](https://raw.githubusercontent.com/vchrombie/YoutubeDataCollector/52968873445d24d11fa85f5488f309dc110449e8/img/demo5.png)
 
-It displays the recent youtube videos opened and displays them in a list form.
+It displays the recent youtube videos opened and displays them in a list form. :raised_hands:
 
 ![image](https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/demo6.png?raw=true)
 
