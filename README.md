@@ -1,7 +1,7 @@
 # My Youtube History
 
 <p>
-  <a href="https://github.com/Parth-Vader/YoutubeDataCollector">YoutubeDataCollector</a> is compaitable with the we browsers like  <img src="https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/chrome.png?raw=true" alt="chrome icon" width="32" height="32"> <img src="https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/firefox.png?raw=true" alt="firefox icon" width="32" height="32">
+  <a href="https://github.com/Parth-Vader/YoutubeDataCollector">YoutubeDataCollector</a> is compaitable with the web-browsers like  <img src="https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/chrome.png?raw=true" alt="chrome icon" width="32" height="32"> <img src="https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/firefox.png?raw=true" alt="firefox icon" width="32" height="32">
 </p>
 
 
