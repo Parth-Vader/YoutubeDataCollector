@@ -1,18 +1,24 @@
 {
-  "background": {
-    "scripts": ["background.js"]
-  },
+  "manifest_version": 2,
+  "name": "History List",
   "description": "A web extension to find the visited youtube videos from the history.",
-  "page_action": {
-    "default_title": "My Youtube History",
-    "default_popup": "history.html"
+  "version": "0.1.0",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "permissions": [
     "activeTab",
     "history",
     "tabs"
   ],
-  "manifest_version": 2,
-  "name": "History List",
-  "version": "0.1.0"
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "My Youtube History",
+    "default_icon": "icons/icon16.png",
+    "default_popup": "history.html"
+  }
 }
