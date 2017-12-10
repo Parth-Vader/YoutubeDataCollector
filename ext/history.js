@@ -14,21 +14,16 @@ function showAll(e) {
           var li = document.createElement('li');
           var history = results[k];
            var con_d = history.lastVisitTime;
-           //var fin = new Date(con_d);
-            //fin.setUTCSeconds(con_d);
             var t=history.lastVisitTime;
             var ex="/Date("+t+")/"
             var dateVal =ex;
-            var date = new Date( parseFloat( dateVal.substr(6 )));
-             
+            var date = new Date( parseFloat( dateVal.substr(6 )));            
               var con_d =  (date.getMonth() + 1) + "/" +
               date.getDate() + "/" +date.getFullYear() + 
               " " + date.getHours() + ":" + 
               date.getMinutes() + ":" +
-              date.getSeconds();
-            
+              date.getSeconds();     
           var tn = document.createTextNode(" URL: " + history.url + ", Title:" + history.title + ", Last visited:" + con_d + ",  Visit count: " + history.visitCount);
-          //var tn = document.createTextNode("URL: " + history.url + ", Title: " + history.title);
           li.appendChild(tn);
           root.appendChild(li);
         }
