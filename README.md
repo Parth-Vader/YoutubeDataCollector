@@ -42,11 +42,11 @@ Searches :mag_right: for recent youtube videos opened and displays them in a lis
 Now that the extension is installed in your web browser. You can see the logo on the top-right of your browser. :arrow_upper_right:
  Click on the logo and then `Show`
 
-![image](https://raw.githubusercontent.com/vchrombie/YoutubeDataCollector/52968873445d24d11fa85f5488f309dc110449e8/img/demo5.png)
+![image](https://raw.githubusercontent.com/mritunjaygoutam12/YoutubeDataCollector/master/img/demo5.png)
 
 It displays the recent youtube videos opened and displays them in a list form. :raised_hands:
 
-![image](https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/demo6.png?raw=true)
+![image](https://github.com/mritunjaygoutam12/YoutubeDataCollector/blob/master/img/demo6.png?raw=true)
 
 
 **Found a :bug:  bug?** [Open an issue](https://github.com/Parth-Vader/YoutubeDataCollector/issues/new) with some [emojis](http://emoji.muan.co).
