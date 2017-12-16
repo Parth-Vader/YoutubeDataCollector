@@ -1,13 +1,24 @@
 html, body {
-    margin: 0.2em;
+    margin: 0.6em;
     width: 350px;
+    background-color: #FF6666;
 }
 
 h1 {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-style: normal;
     font-size: 15px;
+    background-color: #FF6666;
+}
+.divider{
+    background-color: #FF6666;
+}
+
+li {
+    text-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    background-color: #FFD900;
 }
 
 #link {
@@ -18,4 +29,12 @@ h1 {
 #update {
   font-size: 12px;
   float: left;
+}
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
 }
