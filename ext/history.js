@@ -24,12 +24,32 @@ function showAll(e) {
               date.getMinutes() + ":" +
               date.getSeconds();     
           var tn = document.createTextNode(" URL: " + history.url + ", Title:" + history.title + ", Last visited:" + con_d + ",  Visit count: " + history.visitCount);
+
+          var a = document.createElement('a');
+          a.setAttribute('href',"#");
+          a.onclick=function(evt){
+            var text= evt.target.parentElement.innerText;
+            var url= text.split(' ')[1];
+            var title= text.substring(text.indexOf('Title:')+7,text.indexOf(evt.target.innerText)+1);
+            addBookmark(url,title);
+          };
+          a.innerHTML = 'Add Bookmark';
           li.appendChild(tn);
+          li.appendChild(a);
           root.appendChild(li);
         }
       }
     }
   );
+}
+
+function addBookmark(url,title){
+  chrome.bookmarks.search(url,function(result){
+    if (result.length==0){
+      chrome.bookmarks.create({'parentId': '1','title': title,'url':url});
+    }
+  })
+   
 }
 
 document.getElementById('update').addEventListener('click', showAll);
