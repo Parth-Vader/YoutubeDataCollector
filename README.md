@@ -48,6 +48,9 @@ It displays the recent youtube videos opened and displays them in a list form. :
 
 ![image](https://github.com/vchrombie/YoutubeDataCollector/blob/master/img/demo6.png?raw=true)
 
+Add any video as a bookmark to your Bookmarks Bar
+
+![image](img/demo7.png) ![image](img/demo8.png)
 
 **Found a :bug:  bug?** [Open an issue](https://github.com/Parth-Vader/YoutubeDataCollector/issues/new) with some [emojis](http://emoji.muan.co).
 
