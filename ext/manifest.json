@@ -11,7 +11,8 @@
   "permissions": [
     "activeTab",
     "history",
-    "tabs"
+    "tabs",
+    "bookmarks"
   ],
   "background": {
     "scripts": ["background.js"]
