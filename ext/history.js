@@ -36,6 +36,7 @@ function addBookmark(url,title){
   chrome.bookmarks.search(url,function(result){
     if (result.length==0){
       chrome.bookmarks.create({'parentId': '1','title': title,'url':url});
+      alert("Added the Bookmark");
     }
   })
    
