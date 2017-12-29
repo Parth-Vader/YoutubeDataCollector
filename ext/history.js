@@ -21,13 +21,13 @@ function showAll(e) {
           b.onclick=function(evt1){
           	var text= evt1.target.parentElement.innerText;
           	var url = text.split(' ')[4];
-          	alert(url);
+          	
           	window.open(url);
           };
           a.onclick=function(evt){
             var text= evt.target.parentElement.innerText;
             var url= text.split(' ')[4];
-            alert(url);
+            
             var title= text.substring(text.indexOf('Title:')+7,text.indexOf(evt.target.innerText)+1);
             addBookmark(url,title);
           };
@@ -47,6 +47,7 @@ function addBookmark(url,title){
   chrome.bookmarks.search(url,function(result){
     if (result.length==0){
       chrome.bookmarks.create({'parentId': '1','title': title,'url':url});
+      alert("Bookmark is added.")
     }
   })
    
