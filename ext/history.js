@@ -15,14 +15,25 @@ function showAll(e) {
           var history = results[k];
           var tn = document.createTextNode("URL: " + history.url + ", Title: " + history.title+' ');
           var a = document.createElement('a');
+          var b = document.createElement('b');
           a.setAttribute('href',"#");
+          b.setAttribute('href',"#");
+          b.onclick=function(evt1){
+          	var text= evt1.target.parentElement.innerText;
+          	var url = text.split(' ')[4];
+          	
+          	window.open(url);
+          };
           a.onclick=function(evt){
             var text= evt.target.parentElement.innerText;
-            var url= text.split(' ')[1];
+            var url= text.split(' ')[4];
+            
             var title= text.substring(text.indexOf('Title:')+7,text.indexOf(evt.target.innerText)+1);
             addBookmark(url,title);
           };
+          b.innerHTML = 'Click to Open ';
           a.innerHTML = 'Add Bookmark';
+          li.appendChild(b);
           li.appendChild(tn);
           li.appendChild(a);
           root.appendChild(li);
@@ -36,6 +47,7 @@ function addBookmark(url,title){
   chrome.bookmarks.search(url,function(result){
     if (result.length==0){
       chrome.bookmarks.create({'parentId': '1','title': title,'url':url});
+      alert("Bookmark is added.")
     }
   })
    
