@@ -29,7 +29,7 @@ function showAll(e) {
           var tn = document.createTextNode(" URL: " + history.url + ", Title:" + history.title + ", Last visited: " + con_d + ",  Visit count: " + history.visitCount + " ");
 
           var a = document.createElement('a');
-          var b = document.createElement('b');
+          var b = document.createElement('a');
           a.setAttribute('href',"#");
           b.setAttribute('href',"#");
           b.onclick=function(evt1){
