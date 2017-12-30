@@ -48,11 +48,11 @@ Now that the extension is installed in your web browser. You can see the logo on
 
 It displays the recent youtube videos opened and displays them in a list form. :raised_hands:
 
-![image](/img/Y2.png?raw=true)
+![image](/img/Y22.png?raw=true)
 
 Add any video as a bookmark to your Bookmarks Bar
 
-![image](img/Y3.png?raw=true) ![image](img/demo8.png)
+![image](img/Y33.png?raw=true) ![image](img/demo8.png)
 
 **Found a :bug:  bug?** [Open an issue](https://github.com/Parth-Vader/YoutubeDataCollector/issues/new) with some [emojis](http://emoji.muan.co).
 
